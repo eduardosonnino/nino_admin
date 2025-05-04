@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Mona_Sans as FontSans, Content as FontHeading } from "next/font/google"
+import { Mona_Sans as FontSans } from "next/font/google"
+import { Content as FontHeading } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { AuthProvider } from "@/contexts/auth-context"
